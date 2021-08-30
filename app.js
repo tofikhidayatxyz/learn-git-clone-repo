@@ -1,3 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-	alert('HELLO :)');
+	const name = confirm('Siapa kamu ?');
+	alert(`Hallo ${name} sampai jumpa lagi :_)`);
 });
